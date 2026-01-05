@@ -61,14 +61,9 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="170"
-       src="https://github-readme-stats.vercel.app/api?username=khalidhasan7343&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
-  <img height="170"
-       src="https://github-readme-stats.vercel.app/api/top-languages/?username=khalidhasan7343&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
-</p>
+# 📊 GitHub Stats:
+![](https://nirzak-streak-stats.vercel.app/?user=khalidhasan7343&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=khalidhasan7343&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 
 
