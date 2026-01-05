@@ -64,24 +64,31 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=khalidhasan7343&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-languages/?username=khalidhasan7343&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="170"
+       src="https://github-readme-stats.vercel.app/api?username=khalidhasan7343&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
+  <img height="170"
+       src="https://github-readme-stats.vercel.app/api/top-languages/?username=khalidhasan7343&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 </p>
+
+
 
 ---
 
 ## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=khalidhasan7343&theme=tokyonight&hide_border=true" />
+  <img
+    src="https://streak-stats.demolab.com?user=khalidhasan7343&theme=tokyonight&hide_border=true" />
 </p>
+
 
 ---
 
 ## 🐍 Contribution Snake (Animation)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/khalidhasan7343/khalidhasan7343/output/github-contribution-grid-snake-dark.svg" />
+  <img
+    src="https://raw.githubusercontent.com/khalidhasan7343/khalidhasan7343/main/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 ---
@@ -92,7 +99,7 @@
   <a href="https://github.com/khalidhasan7343">
     <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github" />
   </a>
-  <a href="https://linkedin.com/in/your-link">
+  <a href="https://linkedin.com/in/md-khalid-hasan-0224a9308">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" />
   </a>
   <a href="mailto:yourmail@gmail.com">
@@ -105,7 +112,8 @@
 ## ✨ Profile Views
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=khalidhasan7343&label=Profile%20Views&color=0e75b6&style=flat" />
+  <img
+    src="https://komarev.com/ghpvc/?username=khalidhasan7343&label=Profile%20Views&color=0e75b6&style=flat" />
 </p>
 
 ---
