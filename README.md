@@ -65,27 +65,6 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=khalidhasan7343&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=khalidhasan7343&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-
-
----
-
-## 🔥 GitHub Streak
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=khalidhasan7343&theme=tokyonight&hide_border=true" />
-</p>
-
-
----
-
-## 🐍 Contribution Snake (Animation)
-
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/khalidhasan7343/khalidhasan7343/main/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
 ---
 
 ## 🌐 Connect With Me
@@ -103,16 +82,6 @@
 </p>
 
 ---
-
-## ✨ Profile Views
-
-<p align="center">
-  <img
-    src="https://komarev.com/ghpvc/?username=khalidhasan7343&label=Profile%20Views&color=0e75b6&style=flat" />
-</p>
-
----
-
 <!-- Footer Animation -->
 
 <p align="center">
