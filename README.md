@@ -1,88 +1,82 @@
-<!-- Animated Header -->
+<h1 align="center">MD Khalid Hasan</h1>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=MD%20Khalid%20Hasan&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+  <strong>Computer Science Undergraduate · Full-Stack Development · Machine Learning</strong>
 </p>
-
-<!-- Typing Animation -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/khalidhasan7343/khalidhasan7343/refs/heads/main/animate.svg" />
-</p>
-
----
-
-## 👨‍💻 About Me
-
-- 🎓 **CSE Undergraduate**
-- 🌱 **Currently learning Full-Stack Web Development**
-- 💡 Interested in **Software Engineering, DSA & Web Technologies**
-- 🛠️ Love building academic & real-world projects
-- ⚡ Fun fact: I enjoy debugging more than writing new code 😄
-
----
-
-## 🛠️ Tech Stack
-
-### 👨‍💻 Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,js" />
-</p>
-
-### 🌐 Frontend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,react" />
-</p>
-
-### 🔙 Backend & Database
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql" />
-</p>
-
-### ⚙️ Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux" />
-</p>
-
----
-
-## 💼 Work & Learning
-
-- 🔭 **Currently working on**Lab Projects
-- 🤝 **Looking to collaborate on**Academic Projects, Java, C++ & DSA-based projects
-- 🌱 **Currently learning**Full-Stack Web Development (Frontend & Backend & Database)
-- 💬 **Ask me about**C, C++, Java, OOP, DSA, University Projects
-- 📫 **Reach me at**
-  **mdkhalidhasan7343@gmail.com**
-
----
-
-# 📊 GitHub Stats:
-![](https://nirzak-streak-stats.vercel.app/?user=khalidhasan7343&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=khalidhasan7343&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
----
-
-## 🌐 Connect With Me
 
 <p align="center">
+  <img src="./animate.svg" alt="CSE undergraduate at UIU, building full-stack skills, learning machine learning from first principles, and exploring PyTorch and RAG" width="600" height="52" />
+</p>
+
+At UIU, I turn coursework into practical web projects, SQL exercises, and Python notebooks. I'm building my machine-learning foundations from first principles while practicing full-stack development, object-oriented programming, and DSA.
+
+## Featured Projects
+
+### Machine Learning Hands-On
+
+Practical notebooks covering data exploration, regression, classification, clustering, and neural networks. Includes handwritten digit recognition and comparisons of dense and convolutional models.
+
+`Python` `pandas` `scikit-learn` `Keras` `TensorFlow` `Jupyter`
+
+**[View repository →](https://github.com/khalidhasan7343/Machine-Learning-Hands-On)**
+
+### Web Development Mini Projects
+
+Browser-based tools and games, including a calculator, stopwatch, dice roller, and number-guessing game.
+
+`HTML` `CSS` `Tailwind CSS` `JavaScript`
+
+**[View repository →](https://github.com/khalidhasan7343/Basic-Project)**
+
+### SQL & Database Coursework
+
+SQL practice covering joins, aggregation, and subqueries through university-style database exercises.
+
+`SQL`
+
+**[View repository →](https://github.com/khalidhasan7343/dbms)**
+
+[Browse all repositories →](https://github.com/khalidhasan7343?tab=repositories)
+
+## Tech Stack
+
+Technologies I work with in coursework and learning projects:
+
+**Languages:** C · C++ · Java · Python · JavaScript · SQL
+
+**Web:** HTML · CSS · Tailwind CSS
+
+**Data / ML:** pandas · scikit-learn · TensorFlow · Keras
+
+**Tools:** Git · GitHub · VS Code · Linux · Jupyter
+
+## Currently Exploring
+
+`PyTorch` · `Retrieval-Augmented Generation (RAG)` · `Next.js` · `Docker`
+
+I'm also learning full-stack architecture: connecting React interfaces with Node.js and Express backends, and working with MongoDB and MySQL.
+
+## GitHub Activity
+
+[View my contributions and recent activity on GitHub →](https://github.com/khalidhasan7343)
+
+<!-- Optional contribution animation:
+     Add a light/dark picture here after a workflow generates and verifies its SVG outputs.
+     Keep this section optional; do not reference files that have not been generated.
+-->
+
+## Connect
+
+Open to academic projects, beginner-friendly web collaborations, and Java or C++ projects.
+
+<p>
   <a href="https://github.com/khalidhasan7343">
-    <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github" />
+    <img src="https://img.shields.io/badge/GitHub-2563EB?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub — khalidhasan7343" loading="lazy" />
   </a>
-  <a href="https://linkedin.com/in/md-khalid-hasan-0224a9308">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" />
+  <a href="https://www.linkedin.com/in/md-khalid-hasan-0224a9308/">
+    <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn — MD Khalid Hasan" loading="lazy" />
   </a>
-  <a href="mailto:yourmail@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail" />
+  <a href="mailto:mdkhalidhasan7343@gmail.com">
+    <img src="https://img.shields.io/badge/Email-2563EB?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email — mdkhalidhasan7343@gmail.com" loading="lazy" />
   </a>
-</p>
-
----
-<!-- Footer Animation -->
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" />
 </p>
