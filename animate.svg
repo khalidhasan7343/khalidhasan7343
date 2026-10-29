@@ -1,140 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-  width="600" height="52" viewBox="0 0 600 52" role="img"
-  aria-labelledby="animation-title animation-description">
-  <title id="animation-title">MD Khalid Hasan — learning and building</title>
-  <desc id="animation-description">CSE undergraduate at UIU, building full-stack skills, learning machine learning from first principles, exploring PyTorch and retrieval-augmented generation, and building practical projects.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="112" viewBox="0 0 480 112" role="img" aria-labelledby="title description">
+  <title id="title">Khalid / The Exploration Lab</title>
+  <desc id="description">Four rotating messages: Exploring AI &amp; Machine Learning; Learning Through Experiments; Algorithms, Intuition &amp; Code; Building Practical Software. Reduced motion shows the first message without a cursor.</desc>
 
   <style>
-    text, .cursor {
-      fill: #2563eb;
-    }
-
-    text {
-      font-family: ui-monospace, "Cascadia Code", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-      font-size: 20px;
-      dominant-baseline: middle;
-    }
-
-    .static-message {
-      display: none;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      text, .cursor {
-        fill: #60a5fa;
-      }
-    }
-
+    text { font-family: ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', monospace; font-size: 21px; fill: #F5F5F5; }
+    .cursor { fill: #F5F5F5; }
+    .still { display: none; }
     @media (prefers-reduced-motion: reduce) {
-      .animated-messages {
-        display: none;
-      }
-
-      .static-message {
-        display: inline;
-      }
+      .motion { display: none; }
+      .still { display: inline; }
     }
   </style>
-
-  <!-- Shared 16-second timeline: each message types, holds, then erases in 3.2 seconds.
-       Start on a complete first message; its next reveal happens across the loop boundary.
-       Base attributes keep that first message readable if SVG animation is unsupported. -->
+  <rect x="0.5" y="0.5" width="479" height="111" rx="8" fill="#0B0B0C" stroke="#303030" />
+  <path d="M1 43.5H479" stroke="#303030" />
+  <text x="24" y="27" style="font-size: 12px; fill: #A3A3A3; letter-spacing: 1px">KHALID / THE EXPLORATION LAB</text>
+  <path d="M440 21H454M447 14V28" stroke="#A3A3A3" />
   <defs>
     <clipPath id="reveal-0" clipPathUnits="userSpaceOnUse">
-      <rect x="162" y="6" width="276" height="40">
-        <animate attributeName="width" dur="16s" repeatCount="indefinite"
-          values="276;276;0;0;276" keyTimes="0;0.1125;0.15;0.95;1" />
+      <rect x="24" y="58" width="390.6" height="34">
+        <animate attributeName="width" dur="14.4s" repeatCount="indefinite" values="390.6;390.6;0;0;390.6" keyTimes="0;0.170139;0.194444;0.944444;1" />
       </rect>
     </clipPath>
     <clipPath id="reveal-1" clipPathUnits="userSpaceOnUse">
-      <rect x="144" y="6" width="0" height="40">
-        <animate attributeName="width" dur="16s" repeatCount="indefinite"
-          values="0;0;312;312;0;0" keyTimes="0;0.15;0.2;0.3125;0.35;1" />
+      <rect x="24" y="58" width="0" height="34">
+        <animate attributeName="width" dur="14.4s" repeatCount="indefinite" values="0;0;352.8;352.8;0;0" keyTimes="0;0.194444;0.25;0.420139;0.444444;1" />
       </rect>
     </clipPath>
     <clipPath id="reveal-2" clipPathUnits="userSpaceOnUse">
-      <rect x="102" y="6" width="0" height="40">
-        <animate attributeName="width" dur="16s" repeatCount="indefinite"
-          values="0;0;396;396;0;0" keyTimes="0;0.35;0.4;0.5125;0.55;1" />
+      <rect x="24" y="58" width="0" height="34">
+        <animate attributeName="width" dur="14.4s" repeatCount="indefinite" values="0;0;352.8;352.8;0;0" keyTimes="0;0.444444;0.5;0.670139;0.694444;1" />
       </rect>
     </clipPath>
     <clipPath id="reveal-3" clipPathUnits="userSpaceOnUse">
-      <rect x="162" y="6" width="0" height="40">
-        <animate attributeName="width" dur="16s" repeatCount="indefinite"
-          values="0;0;276;276;0;0" keyTimes="0;0.55;0.6;0.7125;0.75;1" />
-      </rect>
-    </clipPath>
-    <clipPath id="reveal-4" clipPathUnits="userSpaceOnUse">
-      <rect x="138" y="6" width="0" height="40">
-        <animate attributeName="width" dur="16s" repeatCount="indefinite"
-          values="0;0;324;324;0;0" keyTimes="0;0.75;0.8;0.9125;0.95;1" />
+      <rect x="24" y="58" width="0" height="34">
+        <animate attributeName="width" dur="14.4s" repeatCount="indefinite" values="0;0;340.2;340.2;0;0" keyTimes="0;0.694444;0.75;0.920139;0.944444;1" />
       </rect>
     </clipPath>
   </defs>
-
-  <g class="animated-messages" aria-hidden="true">
+  <g class="motion" aria-hidden="true">
     <g opacity="1">
-      <animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete"
-        values="1;0;1;1" keyTimes="0;0.15;0.95;1" />
-      <text x="162" y="26" textLength="276" lengthAdjust="spacingAndGlyphs"
-        clip-path="url(#reveal-0)">CSE Undergraduate @ UIU</text>
-      <rect class="cursor" x="442" y="36" width="10" height="2" rx="0.5">
-        <animate attributeName="x" dur="16s" repeatCount="indefinite"
-          values="442;442;166;166;442" keyTimes="0;0.1125;0.15;0.95;1" />
-        <animate attributeName="opacity" dur="1s" repeatCount="indefinite" calcMode="discrete"
-          values="1;0;1" keyTimes="0;0.5;1" />
+      <animate attributeName="opacity" dur="14.4s" repeatCount="indefinite" calcMode="discrete" values="1;0;1;1" keyTimes="0;0.194444;0.944444;1" />
+      <text x="24" y="82" textLength="390.6" lengthAdjust="spacingAndGlyphs" clip-path="url(#reveal-0)">Exploring AI &amp; Machine Learning</text>
+      <rect class="cursor" x="418.6" y="65" width="2" height="21">
+        <animate attributeName="x" dur="14.4s" repeatCount="indefinite" values="418.6;418.6;28;28;418.6" keyTimes="0;0.170139;0.194444;0.944444;1" />
+        <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" values="1;0;1" keyTimes="0;0.5;1" />
       </rect>
     </g>
     <g opacity="0">
-      <animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete"
-        values="0;1;0;0" keyTimes="0;0.15;0.35;1" />
-      <text x="144" y="26" textLength="312" lengthAdjust="spacingAndGlyphs"
-        clip-path="url(#reveal-1)">Building Full-Stack Skills</text>
-      <rect class="cursor" x="148" y="36" width="10" height="2" rx="0.5">
-        <animate attributeName="x" dur="16s" repeatCount="indefinite"
-          values="148;148;460;460;148;148" keyTimes="0;0.15;0.2;0.3125;0.35;1" />
-        <animate attributeName="opacity" dur="1s" repeatCount="indefinite" calcMode="discrete"
-          values="1;0;1" keyTimes="0;0.5;1" />
+      <animate attributeName="opacity" dur="14.4s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.194444;0.444444;1" />
+      <text x="24" y="82" textLength="352.8" lengthAdjust="spacingAndGlyphs" clip-path="url(#reveal-1)">Learning Through Experiments</text>
+      <rect class="cursor" x="28" y="65" width="2" height="21">
+        <animate attributeName="x" dur="14.4s" repeatCount="indefinite" values="28;28;380.8;380.8;28;28" keyTimes="0;0.194444;0.25;0.420139;0.444444;1" />
+        <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" values="1;0;1" keyTimes="0;0.5;1" />
       </rect>
     </g>
     <g opacity="0">
-      <animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete"
-        values="0;1;0;0" keyTimes="0;0.35;0.55;1" />
-      <text x="102" y="26" textLength="396" lengthAdjust="spacingAndGlyphs"
-        clip-path="url(#reveal-2)">Learning ML from First Principles</text>
-      <rect class="cursor" x="106" y="36" width="10" height="2" rx="0.5">
-        <animate attributeName="x" dur="16s" repeatCount="indefinite"
-          values="106;106;502;502;106;106" keyTimes="0;0.35;0.4;0.5125;0.55;1" />
-        <animate attributeName="opacity" dur="1s" repeatCount="indefinite" calcMode="discrete"
-          values="1;0;1" keyTimes="0;0.5;1" />
+      <animate attributeName="opacity" dur="14.4s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.444444;0.694444;1" />
+      <text x="24" y="82" textLength="352.8" lengthAdjust="spacingAndGlyphs" clip-path="url(#reveal-2)">Algorithms, Intuition &amp; Code</text>
+      <rect class="cursor" x="28" y="65" width="2" height="21">
+        <animate attributeName="x" dur="14.4s" repeatCount="indefinite" values="28;28;380.8;380.8;28;28" keyTimes="0;0.444444;0.5;0.670139;0.694444;1" />
+        <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" values="1;0;1" keyTimes="0;0.5;1" />
       </rect>
     </g>
     <g opacity="0">
-      <animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete"
-        values="0;1;0;0" keyTimes="0;0.55;0.75;1" />
-      <text x="162" y="26" textLength="276" lengthAdjust="spacingAndGlyphs"
-        clip-path="url(#reveal-3)">Exploring PyTorch / RAG</text>
-      <rect class="cursor" x="166" y="36" width="10" height="2" rx="0.5">
-        <animate attributeName="x" dur="16s" repeatCount="indefinite"
-          values="166;166;442;442;166;166" keyTimes="0;0.55;0.6;0.7125;0.75;1" />
-        <animate attributeName="opacity" dur="1s" repeatCount="indefinite" calcMode="discrete"
-          values="1;0;1" keyTimes="0;0.5;1" />
-      </rect>
-    </g>
-    <g opacity="0">
-      <animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete"
-        values="0;1;0;0" keyTimes="0;0.75;0.95;1" />
-      <text x="138" y="26" textLength="324" lengthAdjust="spacingAndGlyphs"
-        clip-path="url(#reveal-4)">Building Practical Projects</text>
-      <rect class="cursor" x="142" y="36" width="10" height="2" rx="0.5">
-        <animate attributeName="x" dur="16s" repeatCount="indefinite"
-          values="142;142;466;466;142;142" keyTimes="0;0.75;0.8;0.9125;0.95;1" />
-        <animate attributeName="opacity" dur="1s" repeatCount="indefinite" calcMode="discrete"
-          values="1;0;1" keyTimes="0;0.5;1" />
+      <animate attributeName="opacity" dur="14.4s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0" keyTimes="0;0.694444;0.944444;1" />
+      <text x="24" y="82" textLength="340.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#reveal-3)">Building Practical Software</text>
+      <rect class="cursor" x="28" y="65" width="2" height="21">
+        <animate attributeName="x" dur="14.4s" repeatCount="indefinite" values="28;28;368.2;368.2;28;28" keyTimes="0;0.694444;0.75;0.920139;0.944444;1" />
+        <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" values="1;0;1" keyTimes="0;0.5;1" />
       </rect>
     </g>
   </g>
-
-  <text class="static-message" x="300" y="26" text-anchor="middle"
-    textLength="396" lengthAdjust="spacingAndGlyphs" aria-hidden="true">Learning ML from First Principles</text>
+  <text class="still" x="24" y="82" textLength="390.6" lengthAdjust="spacingAndGlyphs" aria-hidden="true">Exploring AI &amp; Machine Learning</text>
 </svg>

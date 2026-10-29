@@ -1,82 +1,149 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/avatar/kh-identity.svg" />
+    <img src="./assets/avatar/kh-identity-light.svg" width="112" height="112" alt="KH — a geometric monogram connected to three neural nodes" />
+  </picture>
+</p>
+
 <h1 align="center">MD Khalid Hasan</h1>
 
 <p align="center">
-  <strong>Computer Science Undergraduate · Full-Stack Development · Machine Learning</strong>
+  <strong>AI / Machine Learning Explorer</strong><br />
+  Computer Science &amp; Engineering undergraduate @ UIU · Bangladesh
 </p>
 
 <p align="center">
-  <img src="./animate.svg" alt="CSE undergraduate at UIU, building full-stack skills, learning machine learning from first principles, and exploring PyTorch and RAG" width="600" height="52" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./animate.svg" />
+    <img src="./assets/hero/typing-light.svg" width="560" alt="Khalid / The Exploration Lab — exploring AI and machine learning, learning through experiments, practicing algorithms, and building practical software" />
+  </picture>
 </p>
 
-At UIU, I turn coursework into practical web projects, SQL exercises, and Python notebooks. I'm building my machine-learning foundations from first principles while practicing full-stack development, object-oriented programming, and DSA.
+<p align="center">
+  <a href="#featured-projects">Selected work</a> ·
+  <a href="#exploration-map">Exploration map</a> ·
+  <a href="#connect">Connect</a>
+</p>
+
+## About Me
+
+I'm a CSE undergraduate at United International University, learning through implementation, experiments, and practical projects. My main interest is AI and machine learning; I also practice algorithms, full-stack development, and embedded systems. I use coursework as a starting point to build things I can run, inspect, and improve.
 
 ## Featured Projects
 
-### Machine Learning Hands-On
+### 01 / Experimentation — Machine Learning Hands-On
 
-Practical notebooks covering data exploration, regression, classification, clustering, and neural networks. Includes handwritten digit recognition and comparisons of dense and convolutional models.
+<a href="https://github.com/khalidhasan7343/Machine-Learning-Hands-On">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/machine-learning.svg" />
+    <img src="./assets/projects/machine-learning-light.svg" width="720" alt="Machine Learning Hands-On — notebook experiments, from data to models" />
+  </picture>
+</a>
 
-`Python` `pandas` `scikit-learn` `Keras` `TensorFlow` `Jupyter`
+A growing notebook collection where I explore datasets, train models, and compare what they learn.
 
-**[View repository →](https://github.com/khalidhasan7343/Machine-Learning-Hands-On)**
+- Housing regression with Linear Regression, Ridge, and Lasso, evaluated with MAE, MSE, and R².
+- Iris clustering with K-Means and PCA; data exploration with pandas.
+- MNIST digit recognition and a dense-network versus CNN comparison on Fashion-MNIST.
 
-### Web Development Mini Projects
+`Python` · `pandas` · `scikit-learn` · `TensorFlow / Keras` · `Jupyter`
 
-Browser-based tools and games, including a calculator, stopwatch, dice roller, and number-guessing game.
+**[Explore the notebooks →](https://github.com/khalidhasan7343/Machine-Learning-Hands-On)**
 
-`HTML` `CSS` `Tailwind CSS` `JavaScript`
+### 02 / Algorithms — Algorithm Atlas
 
-**[View repository →](https://github.com/khalidhasan7343/Basic-Project)**
+<a href="https://github.com/khalidhasan7343/algorithm-atlas">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/algorithm-atlas.svg" />
+    <img src="./assets/projects/algorithm-atlas-light.svg" width="720" alt="Algorithm Atlas — algorithm lessons and implementations, built from first principles" />
+  </picture>
+</a>
 
-### SQL & Database Coursework
+An educational collection connecting algorithm intuition with explanations, implementations, and tests.
 
-SQL practice covering joins, aggregation, and subqueries through university-style database exercises.
+- Python and C++ implementations across sorting, searching, graphs, dynamic programming, and more.
+- Lessons with dry runs, complexity analysis, input contracts, and edge-case tests.
+- Python-first regression and classification work; a catalog separates implemented topics from the wider ML/AI roadmap.
 
-`SQL`
+`Python` · `C++` · `NumPy` · `pytest` · `Markdown / YAML`
 
-**[View repository →](https://github.com/khalidhasan7343/dbms)**
+**[Browse the atlas →](https://github.com/khalidhasan7343/algorithm-atlas)** · Actively developing
 
-[Browse all repositories →](https://github.com/khalidhasan7343?tab=repositories)
+### 03 / Applied AI — Maze Mind
 
-## Tech Stack
+<a href="https://github.com/khalidhasan7343/maze_mind">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/maze-mind.svg" />
+    <img src="./assets/projects/maze-mind-light.svg" width="720" alt="Maze Mind — a maze escape game connecting pathfinding, gameplay data, and machine learning" />
+  </picture>
+</a>
 
-Technologies I work with in coursework and learning projects:
+A playable maze escape game that connects AI pathfinding with gameplay analysis and a learning pipeline.
 
-**Languages:** C · C++ · Java · Python · JavaScript · SQL
+- Randomized DFS maze generation and an A* hunter, with classic and isometric Pygame views.
+- SQLite records of completed rounds and in-game snapshots for feature engineering and analysis.
+- KNN skill classification, K-Means playstyle clustering, and logistic-regression escape estimates.
 
-**Web:** HTML · CSS · Tailwind CSS
+`Python` · `Pygame CE` · `SQLite` · `scikit-learn` · `pandas`
 
-**Data / ML:** pandas · scikit-learn · TensorFlow · Keras
+**[Inspect the game and pipeline →](https://github.com/khalidhasan7343/maze_mind)**
 
-**Tools:** Git · GitHub · VS Code · Linux · Jupyter
+<sub>A learning project: bot-simulated training results do not establish accuracy on human players.</sub>
+
+### 04 / Embedded Systems — Microprocessor & Microcontroller Project
+
+<a href="https://github.com/khalidhasan7343/CSE_4326_-Microprosser---Micro-controller-_Project">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/embedded-systems.svg" />
+    <img src="./assets/projects/embedded-systems-light.svg" width="720" alt="MediSmart — an ESP32 embedded-systems prototype, illustrated with a processor outline and circuit traces" />
+  </picture>
+</a>
+
+**MediSmart** is a university team prototype connecting dual-infusion control and patient monitoring with embedded sensing, actuation, and web dashboards.
+
+- ESP32 firmware in C, using ESP-IDF and FreeRTOS through PlatformIO.
+- MAX30102 and AD8232 sensing, HX711 load-cell input, PWM servo control, and a local buzzer.
+- Wi-Fi / HTTP JSON exchange with Firebase Realtime Database and HTML/CSS/JavaScript dashboards.
+
+`C` · `ESP32 / ESP-IDF` · `FreeRTOS` · `PlatformIO` · `Firebase`
+
+**[Explore the hardware project →](https://github.com/khalidhasan7343/CSE_4326_-Microprosser---Micro-controller-_Project)** · [Prototype photos](https://github.com/khalidhasan7343/CSE_4326_-Microprosser---Micro-controller-_Project/tree/main/Project_images) · [Technical report](https://github.com/khalidhasan7343/CSE_4326_-Microprosser---Micro-controller-_Project/tree/main/CSE_4326_Project_Paper)
+
+Earlier practice: [Web development mini projects](https://github.com/khalidhasan7343/Basic-Project) · [SQL & database coursework](https://github.com/khalidhasan7343/dbms) · [All repositories →](https://github.com/khalidhasan7343?tab=repositories)
+
+## Exploration Map
+
+AI and machine learning lead my exploration. Four connected directions bring it into practice: data experiments, algorithmic problem solving, software development, and embedded hardware.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/exploration/exploration-map.svg" />
+    <img src="./assets/exploration/exploration-map-light.svg" width="520" alt="MD Khalid connects four learning directions: AI and machine learning as the primary exploration through data and experiments; algorithms and problem solving; software development; embedded systems and hardware" />
+  </picture>
+</p>
+
+## Technical Toolkit
+
+Technologies I've used in coursework and learning projects:
+
+| Area | Toolkit |
+| :--- | :--- |
+| Programming | C · C++ · Java · Python · JavaScript · SQL |
+| Web development | HTML · CSS · Tailwind CSS |
+| Data / ML | pandas · scikit-learn · Keras · TensorFlow |
+| Developer tools | Git · GitHub · VS Code · Jupyter · Linux |
 
 ## Currently Exploring
 
-`PyTorch` · `Retrieval-Augmented Generation (RAG)` · `Next.js` · `Docker`
-
-I'm also learning full-stack architecture: connecting React interfaces with Node.js and Express backends, and working with MongoDB and MySQL.
+- **AI / ML:** learning PyTorch and retrieval-augmented generation (RAG).
+- **Full-stack development:** exploring Next.js and Docker, connecting React with Node.js / Express, and working with MongoDB and MySQL.
 
 ## GitHub Activity
 
-[View my contributions and recent activity on GitHub →](https://github.com/khalidhasan7343)
-
-<!-- Optional contribution animation:
-     Add a light/dark picture here after a workflow generates and verifies its SVG outputs.
-     Keep this section optional; do not reference files that have not been generated.
--->
+[Follow my contributions and recent work on GitHub →](https://github.com/khalidhasan7343)
 
 ## Connect
 
 Open to academic projects, beginner-friendly web collaborations, and Java or C++ projects.
 
-<p>
-  <a href="https://github.com/khalidhasan7343">
-    <img src="https://img.shields.io/badge/GitHub-2563EB?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub — khalidhasan7343" loading="lazy" />
-  </a>
-  <a href="https://www.linkedin.com/in/md-khalid-hasan-0224a9308/">
-    <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn — MD Khalid Hasan" loading="lazy" />
-  </a>
-  <a href="mailto:mdkhalidhasan7343@gmail.com">
-    <img src="https://img.shields.io/badge/Email-2563EB?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email — mdkhalidhasan7343@gmail.com" loading="lazy" />
-  </a>
-</p>
+[GitHub](https://github.com/khalidhasan7343) · [LinkedIn](https://www.linkedin.com/in/md-khalid-hasan-0224a9308/) · [Email](mailto:mdkhalidhasan7343@gmail.com)

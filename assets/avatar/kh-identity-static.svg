@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title description">
+  <title id="title">KH / Neural Identity</title>
+  <desc id="description">An original motion-free KH monogram inside a circular frame with three connected neural nodes.</desc>
+
+
+  <circle cx="80" cy="80" r="69" fill="#FFFFFF" stroke="#D4D4D4" />
+  <circle cx="80" cy="80" r="46" fill="none" stroke="#D4D4D4" />
+  <g fill="none" stroke="#555555" stroke-width="1.5">
+    <path d="M80 11V34M21 115L40 104M139 115L120 104" />
+  </g>
+  <g fill="#FFFFFF" stroke="#111111" stroke-width="1.5">
+    <circle cx="80" cy="11" r="4" />
+    <circle cx="21" cy="115" r="4" />
+    <circle cx="139" cy="115" r="4" />
+  </g>
+  <path d="M48 59V101M48 81L70 59M48 81L71 101M87 59V101M110 59V101M87 80H110" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter" />
+
+</svg>

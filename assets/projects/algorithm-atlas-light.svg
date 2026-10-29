@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="170" viewBox="0 0 600 170" role="img" aria-labelledby="title description">
+  <title id="title">Algorithm Atlas / project cover</title>
+  <desc id="description">Original geometric cover art, not an application screenshot. INTUITION → IMPLEMENTATION.</desc>
+
+  <rect x="0.5" y="0.5" width="599" height="169" rx="8" fill="#FFFFFF" stroke="#D4D4D4" />
+  <path d="M400 20V150" stroke="#D4D4D4" />
+  <text x="24" y="29" fill="#555555" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.1">02 / ALGORITHMS</text>
+  <g fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="-1">
+    <text x="23" y="77">Algorithm</text>
+    <text x="23" y="114">Atlas</text>
+  </g>
+  <text x="24" y="147" fill="#555555" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="11">INTUITION → IMPLEMENTATION</text>
+  <g fill="none" stroke="#D4D4D4" stroke-width="1.5">
+      <path d="M492 34L448 72L428 115M448 72L473 115M492 34L535 72L518 115M535 72L559 115" />
+    </g>
+    <g fill="#FFFFFF" stroke="#555555" stroke-width="1.5">
+      <circle cx="492" cy="34" r="6" /><circle cx="448" cy="72" r="5" /><circle cx="535" cy="72" r="5" />
+      <circle cx="428" cy="115" r="4" /><circle cx="473" cy="115" r="4" /><circle cx="518" cy="115" r="4" /><circle cx="559" cy="115" r="4" />
+    </g>
+</svg>
