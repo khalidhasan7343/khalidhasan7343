@@ -142,6 +142,10 @@ Technologies I've used in coursework and learning projects:
 
 [Follow my contributions and recent work on GitHub →](https://github.com/khalidhasan7343)
 
+## Open Source Contributions
+
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/khalidhasan7343/badge.svg)](https://hub.xerj.org/contributors/khalidhasan7343)
+
 ## Connect
 
 Open to academic projects, beginner-friendly web collaborations, and Java or C++ projects.
